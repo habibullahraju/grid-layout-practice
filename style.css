@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    
+}
+.container > div{
+ 
+    background-color: aqua;
+    text-align: center;
+    font-size: 2vw;
+   
+   
+}
+.masthead{
+    grid-column: 1/-2;
+    height: 50px;
+}
+.small-nav{
+    grid-column: 1/-1;
+   
+}
+.hero-element{
+    grid-column: 1/-1;
+    height: 100px;
+}
+.containt{
+    grid-column: 1/-2;
+    height: 200px;
+}
+.footer{
+    grid-column: 1/-1;
+    height: 40px;
+
+}
+.home-page{
+    grid-column: 1/-1;
+    height: 40px;
+}
+.future{
+    height: 60px;
+    
+}
